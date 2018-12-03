@@ -1,1 +1,1 @@
-export const serverUrl="http://localhost:3023";
+export const serverUrl="http://"+window.location.host;
