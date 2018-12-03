@@ -4,7 +4,7 @@ import BasePage from "../component/BasePage";
 class DescribePage extends BasePage {
   constructor(props) {
     super(props);
-    this.state.relativeUrl= "pages/page-name?pageName=" + props.match.params.pageName;
+    this.state.relativeUrl= props.match.params.pageName;
     // this.state.header = {
     //   title: "title ",
     //   subtitle: "subtitle",

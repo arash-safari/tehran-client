@@ -1,13 +1,16 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
+import {serverUrl} from "../../utils/const";
 class PeopleModule extends Component {
 
   render() {
     return (
       <Link className="module-container" onMouseEnter={this.handleMouseEnter}
-            onMouseLeave={this.handleMouseLeave} ref="moduleContainer" to={this.props.data.link}>
+            onMouseLeave={this.handleMouseLeave} ref="moduleContainer" to={("link" in this.props.data )?this.props.data.link:"#"}>
         <div className="module-header" style={{width:this.props.width+"px",height:this.props.width/2+"px"}}>
-          <div className="face-background" style={{float:"right",width:this.props.width/2+"px",height:this.props.width/2+"px",backgroundImage:'url('+this.props.data.image+')'}}/>
+          <div className="face-background" style={{float:"right",width:this.props.width/2+"px",height:this.props.width/2+"px",background:
+              'url('+serverUrl+'/api/containers/files/download/'+this.props.data.src+') no-repeat center',
+              backgroundSize: "cover"}}/>
         </div>
         <div className="module-body" ref="moduleBody" style={{width:this.props.width+"px",height:this.props.width/2+"px"}}>
           <div className="module-body-title" ref="moduleBodyTitle">{this.props.data.name}</div>

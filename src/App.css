@@ -1,5 +1,11 @@
-html{
+@font-face {
+  font-family: myFont;
+  src: url(../src/fonts/irsans.ttf);
+}
 
+html{
+  font-family: myFont;
+  overflow-x: hidden;
 }
 body {
   display: block;
@@ -219,19 +225,42 @@ section{
   font-size: x-large;
   font-weight: bold;
   color: black;
-  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-height: 32px;        /* fallback */
+  max-height: 96px;
+  text-align: justify-all;
+
   transition: color 0.5s;
 }
 .module-body-subtitle{
-  font-size: x-large;
+  font-size: medium;
   font-weight: bold;
   color: lightslategrey;
   margin-bottom: 10px;
   transition: color 0.5s;
+  text-align: justify;
+  text-justify: inter-word;
+
+  max-height: 30px;
+  max-lines: 2;
+  line-height: 16px;
 }
 
 .module-body-content{
+  overflow: hidden;
+  /*white-space: nowrap;*/
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7; /* number of lines to show */
+  line-height: 22px;        /* fallback */
+  max-height: 132px;       /* fallback */
   font-size: medium;
+  /*text-align: justify;*/
   transition: color 0.5s;
   margin-bottom: 10px;
   color: grey;
@@ -248,16 +277,21 @@ section{
   filter: grayscale(100%);
 }
 .header{
-width: 100%;
+width: 100vw;
 height: 500px;
+  margin: 0;
+  padding: 0;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 .header-background-image{
   position: absolute;
-  width: 100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
   height: 500px;
+  background-size: cover !important;
   z-index: -1;
 }
 .header-content{
@@ -332,7 +366,7 @@ align-items: center;
   background-color: grey;
 }
 .post-title{
-  margin: 10px 0;
+  margin: 20px 0;
   float: right;
   font-size: 2em;
   font-weight: bold;
@@ -345,9 +379,10 @@ align-items: center;
   font-style: italic;
 }
 .post-content{
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
   font-size: 1.5em;
   float: right;
+  text-align: justify;
 }
 .post-image{
   margin: 10px 0;
@@ -406,4 +441,7 @@ align-items: center;
 }
 .saveButton{
   margin-top:30px !important;
+}
+.text-icon{
+  font-weight: bolder;
 }

@@ -1,16 +1,18 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
+import {serverUrl} from "../../utils/const";
 
 class TwoSectionModule extends Component {
   render() {
     if (this.props.data.contentType !== "video") {
       return (
         <Link className="module-container" onMouseEnter={this.handleMouseEnter}
-              onMouseLeave={this.handleMouseLeave} ref="moduleContainer" to={this.props.data.link}>
+              onMouseLeave={this.handleMouseLeave} ref="moduleContainer" to={"../"+this.props.lang+"/"+this.props.data.link} >
           <div className="module-header" style={{
             width: (this.props.width * this.props.data.widthCoe) + "px",
             height: (this.props.width * this.props.data.widthCoe) + "px",
-            backgroundImage: 'url(' + this.props.data.image + ')'
+            background: 'url('+serverUrl+'/api/containers/files/download/' + this.props.data.src + ') no-repeat center',
+              backgroundSize: "cover",
           }}>
             <div className="module-background"/>
           </div>
@@ -25,7 +27,7 @@ class TwoSectionModule extends Component {
     } else {
       return (
         <Link className="module-container" onMouseEnter={this.handleMouseEnter}
-              onMouseLeave={this.handleMouseLeave} ref="moduleContainer" to={this.props.data.link}>
+              onMouseLeave={this.handleMouseLeave} ref="moduleContainer" to={"../"+this.props.lang+"/"+this.props.data.link}>
           <div className="module-header" style={{
             width: (this.props.width * this.props.data.widthCoe) + "px",
             height: (this.props.width * this.props.data.widthCoe) + "px",

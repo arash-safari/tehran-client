@@ -49,7 +49,7 @@ class PeoplePage extends BasePage {
   }
 
   getFetchUrl() {
-    return this.state.baseUrl + "post/" + this.props.match.params.post_id;
+    return this.state.serverUrl + "post/" + this.props.match.params.post_id;
   }
 }
 

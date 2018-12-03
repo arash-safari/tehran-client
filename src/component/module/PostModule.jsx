@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from "react-router-dom";
+import {serverUrl} from "../../utils/const";
 
 class PostModule extends Component {
   render() {
@@ -19,8 +20,12 @@ class PostModule extends Component {
         </React.Fragment>
       );
     }else if(this.props.data.postType==="image"){
-     return <div className="post-image" style={{backgroundImage:'url('+this.props.data.image+')',width:this.props.psw,height:this.props.psw,
-       backgroundRepeat: "no-repeat",backgroundSize: "cover"}}/>
+     return <div className="post-image" style={{
+         background:'url('+serverUrl+'/api/containers/files/download/'
+         +this.props.data.src+') no-repeat center',
+         backgroundSize: "cover",
+         width:this.props.psw,height:this.props.psw,
+     }}/>
     }else if(this.props.data.postType==="button"){
       return <Link className="waves-effect waves-light btn-large black post-btn" to={this.props.data.link} >{this.props.data.buttonText}</Link>
     }

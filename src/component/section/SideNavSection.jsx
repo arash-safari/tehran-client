@@ -9,10 +9,10 @@ class SideNavSection extends Component {
         {
           this.props.items.map(item => {
           if (item.active) {
-            return <Link key={item.link} to={item.link}
+            return <Link key={item.address} to={item.address}
                          className={"side-nav-item-bar side-nav-active"} style={{display:"inline"}}>{item.name}</Link>
           } else {
-            return <Link key={item.link} to={item.link}
+            return <Link key={item.address} to={item.address}
                          className={"side-nav-item-bar"} style={{display:"inline"}}>{item.name}</Link>
           }
         })
@@ -22,11 +22,12 @@ class SideNavSection extends Component {
       return (
         <div className={"side-nav"} style={{width: this.props.prop.w + "px", height: this.props.prop.h}}>
           {this.props.items.map(item => {
+              console.log(item);
             if (item.active) {
-              return <Link key={item.link} to={item.link}
+              return <Link key={item.address} to={("address" in item)? item.address: "#"}
                            className={"side-nav-item side-nav-active"}>{item.name}</Link>
             } else {
-              return <Link key={item.link} to={item.link}
+              return <Link key={item.address} to={("address" in item)? item.address: "#"}
                            className={"side-nav-item"}>{item.name}</Link>
             }
           })}

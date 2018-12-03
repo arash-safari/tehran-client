@@ -7,7 +7,7 @@ import PeoplePage from "../pages/PeoplePage";
 import EventPage from "../pages/EventPage";
 import AboutPage from "../pages/AboutPage";
 import DescribePage from "../pages/DescribePage";
-import {withRouter} from "react-router";
+import {Redirect, withRouter} from "react-router";
 import PropTypes from 'prop-types'
 
 class MainSwitch extends Component {
@@ -22,7 +22,8 @@ class MainSwitch extends Component {
   render() {
     return (
       <Switch>
-        <Route exact path='/:pageName' component={DescribePage}/>
+        <Route exact path='/:lang/:pageName' component={DescribePage}/>
+        <Route exact path='/' render={() => (<Redirect to="/en/home"/>)}/>
       </Switch>
     );
   }
@@ -30,5 +31,4 @@ class MainSwitch extends Component {
 MainSwitch.propTypes = {
   location: PropTypes.object.isRequired
 };
-
 export default withRouter(MainSwitch);
