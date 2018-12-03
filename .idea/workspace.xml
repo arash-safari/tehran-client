@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba87c30a-0b24-42db-a63a-85263f405b98" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fonts/irsans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/const.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/BasePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BasePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/MainSwitch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/MainSwitch.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/item/NavItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/item/NavItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/module/NavModule.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/module/NavModule.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/module/PeopleModule.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/module/PeopleModule.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/module/PostModule.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/module/PostModule.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/module/TwoSectionModule.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/module/TwoSectionModule.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/section/HeaderSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/section/HeaderSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/section/NavbarSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/section/NavbarSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/section/SideNavSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/section/SideNavSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/DescribePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/DescribePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PeoplePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PeoplePage.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasePage.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BasePage.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/BasePage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="126" column="40" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
+            <state relative-caret-position="225">
+              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="n#!!block;n#componentWillUnmount#0;n#BasePage#0" />
@@ -63,15 +47,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
               <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -100,11 +75,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="const.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/utils/const.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
+              <caret column="20" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -142,7 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onChangeDisplay</find>
       <find>isLoaded</find>
       <find>console.log</find>
       <find>console.</find>
@@ -172,6 +155,7 @@
       <find>psw</find>
       <find>post-content</find>
       <find>module-body-title</find>
+      <find>localhost</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -233,8 +217,8 @@
         <option value="$PROJECT_DIR$/src/component/section/HeaderSection.jsx" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/component/section/SideNavSection.jsx" />
-        <option value="$PROJECT_DIR$/src/component/BasePage.jsx" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/component/BasePage.jsx" />
       </list>
     </option>
   </component>
@@ -438,12 +422,12 @@
       <workItem from="1542094644289" duration="1832000" />
       <workItem from="1542102336004" duration="3938000" />
       <workItem from="1542301067844" duration="806000" />
-      <workItem from="1543829460114" duration="11866000" />
+      <workItem from="1543829460114" duration="13002000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286051000" />
+    <option name="totallyTimeSpent" value="287187000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,8 +440,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49874055" visible="true" weight="0.25074404" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49874055" weight="0.25074404" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32994923" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
@@ -466,7 +451,7 @@
       <window_info id="npm" order="2" sideWeight="0.50125945" side_tool="true" weight="0.16815476" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.50125945" side_tool="true" weight="0.16815476" />
-      <window_info id="Terminal" order="4" weight="0.38690478" />
+      <window_info active="true" id="Terminal" order="4" visible="true" weight="0.38690478" />
       <window_info id="Favorites" order="3" sideWeight="0.50125945" side_tool="true" weight="0.16815476" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38409474" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -660,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/const.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -793,18 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/BasePage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="126" column="40" selection-start-line="126" selection-start-column="40" selection-end-line="126" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="n#!!block;n#componentWillUnmount#0;n#BasePage#0" />
-            <element signature="n#!!block;n#setDisplaySize#0;n#BasePage#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/item/PostItem.jsx">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -834,8 +800,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/const.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/BasePage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="n#!!block;n#componentWillUnmount#0;n#BasePage#0" />
+            <element signature="n#!!block;n#setDisplaySize#0;n#BasePage#0" />
+          </folding>
         </state>
       </provider>
     </entry>
