@@ -42,6 +42,7 @@ class BasePage extends Component {
     }
 
     fetchData = () => {
+        console.log(this.getApiUrl());
         fetch(this.getApiUrl())
             .then(res => res.json())
             .then(
