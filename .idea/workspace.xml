@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba87c30a-0b24-42db-a63a-85263f405b98" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/component/BasePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/BasePage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/const.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasePage.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BasePage.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/component/BasePage.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
@@ -84,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="const.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="const.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/utils/const.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
+              <caret column="64" selection-start-column="64" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -217,8 +218,8 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/component/section/SideNavSection.jsx" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/utils/const.js" />
         <option value="$PROJECT_DIR$/src/component/BasePage.jsx" />
+        <option value="$PROJECT_DIR$/src/utils/const.js" />
       </list>
     </option>
   </component>
@@ -313,7 +314,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="BASE&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;ba&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;tw&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/TwoSectionModule.jsx&#10;post&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/PostModule.jsx&#10;app&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/App.css&#10;pos&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/PostModule.jsx&#10;two&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/TwoSectionModule.jsx&#10;modulebody&#9;null&#9;null&#10;base&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;header&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/HeaderSection.jsx&#10;side&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/SideNavSection.jsx&#10;home&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/pages/HomePage.jsx&#10;sidena&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/SideNavSection.jsx&#10;html&#9;FILE&#9;file://F:/loopback js/teh/client_src/public/index.html&#10;head&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/HeaderSection.jsx&#10;sidebar&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/SidebarSection.jsx&#10;page&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;main&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/MainSwitch.jsx&#10;bas&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;فص&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/TwoSectionModule.jsx&#10;hea&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/HeaderSection.jsx&#10;mains&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/MainSwitch.jsx&#10;app.&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/App.js&#10;sw&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/MainSwitch.jsx&#10;navmo&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/NavModule.jsx&#10;t&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/TwoSectionModule.jsx&#10;peo&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/PeopleModule.jsx&#10;one&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/OneSectionModule.jsx&#10;pe&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/pages/PeoplePage.jsx&#10;package&#9;FILE&#9;file://F:/loopback js/teh/client_src/package.json&#10;d&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/pages/DescribePage.jsx&#10;modu&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/TwoSectionModule.jsx&#10;sid&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/SidebarItems.jsx&#10;index&#9;FILE&#9;file://F:/loopback js/teh/client_src/public/index.html&#10;app.js&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/App.js&#10;postPa&#9;null&#9;null&#10;Pos&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/PostModule.jsx&#10;Post&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/PostPage.jsx&#10;TWO&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/TwoSectionModule.jsx&#10;One&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/OneSectionModule.jsx&#10;ma&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/MainSwitch.jsx&#10;about&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/about.jsx&#10;HOME&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/HomePage.jsx&#10;EVE&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/EventPage.jsx&#10;EV&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/EventPage.jsx&#10;eve&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/EventPage.jsx&#10;event&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/EventPage.jsx&#10;b&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;ho&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/HomePage.jsx&#10;postpag&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/PostPage.jsx" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/utils/const.js&#10;bas&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;c&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/utils/const.js&#10;BASE&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;ba&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;tw&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/TwoSectionModule.jsx&#10;post&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/PostModule.jsx&#10;app&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/App.css&#10;pos&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/PostModule.jsx&#10;two&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/TwoSectionModule.jsx&#10;modulebody&#9;null&#9;null&#10;base&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;header&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/HeaderSection.jsx&#10;side&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/SideNavSection.jsx&#10;home&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/pages/HomePage.jsx&#10;sidena&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/SideNavSection.jsx&#10;html&#9;FILE&#9;file://F:/loopback js/teh/client_src/public/index.html&#10;head&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/HeaderSection.jsx&#10;sidebar&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/SidebarSection.jsx&#10;page&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx&#10;main&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/MainSwitch.jsx&#10;فص&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/TwoSectionModule.jsx&#10;hea&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/section/HeaderSection.jsx&#10;mains&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/MainSwitch.jsx&#10;app.&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/App.js&#10;sw&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/MainSwitch.jsx&#10;navmo&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/NavModule.jsx&#10;t&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/TwoSectionModule.jsx&#10;peo&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/PeopleModule.jsx&#10;one&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/module/OneSectionModule.jsx&#10;pe&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/pages/PeoplePage.jsx&#10;package&#9;FILE&#9;file://F:/loopback js/teh/client_src/package.json&#10;d&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/pages/DescribePage.jsx&#10;modu&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/TwoSectionModule.jsx&#10;sid&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/SidebarItems.jsx&#10;index&#9;FILE&#9;file://F:/loopback js/teh/client_src/public/index.html&#10;app.js&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/App.js&#10;postPa&#9;null&#9;null&#10;Pos&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/PostModule.jsx&#10;Post&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/PostPage.jsx&#10;TWO&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/TwoSectionModule.jsx&#10;One&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/OneSectionModule.jsx&#10;ma&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/MainSwitch.jsx&#10;about&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/about.jsx&#10;HOME&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/HomePage.jsx&#10;EVE&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/EventPage.jsx&#10;EV&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/EventPage.jsx&#10;eve&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/EventPage.jsx&#10;event&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/EventPage.jsx&#10;b&#9;FILE&#9;file://F:/loopback js/teh/client_src/src/component/BasePage.jsx" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -422,12 +423,12 @@
       <workItem from="1542094644289" duration="1832000" />
       <workItem from="1542102336004" duration="3938000" />
       <workItem from="1542301067844" duration="806000" />
-      <workItem from="1543829460114" duration="14244000" />
+      <workItem from="1543829460114" duration="14814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="288429000" />
+    <option name="totallyTimeSpent" value="288999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -805,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/const.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="54" lean-forward="true" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/component/BasePage.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -821,6 +815,13 @@
             <element signature="n#!!block;n#componentWillUnmount#0;n#BasePage#0" />
             <element signature="n#!!block;n#setDisplaySize#0;n#BasePage#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/const.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="64" selection-start-column="64" selection-end-column="64" />
         </state>
       </provider>
     </entry>
