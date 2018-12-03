@@ -31,7 +31,7 @@ class BasePage extends Component {
 
     constructor(props) {
         super(props);
-        console.log(window.location.href);
+        console.log(window.location.hostname);
         this.fetchData();
     }
 
